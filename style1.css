@@ -1,0 +1,35 @@
+body {
+    background-color: brown;
+    color: aqua;
+}
+
+.center {
+
+    display: flex;
+    height: 120vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+#clock {
+    font-size: 40px;
+    background-color: orange;
+    padding: 30px 60px;
+    margin-top: 10px;
+
+    border-radius: 20px;
+
+
+}
+
+#date {
+    font-size: 40px;
+    background-color: orange;
+    padding: 30px 60px;
+    margin-top: -3px;
+
+    border-radius: 20px;
+}
